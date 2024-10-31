@@ -6,34 +6,54 @@ body{
   height: 100%;
   width: 100%;
   background-color: rgb(251, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-image:url(../calculator-concept-illustration_114360-1239.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  
 }
 .main{
-  border: 2px solid black;
-  height:650px ;
+  height:600px ;
   width: 300px;
   margin: 20px;
   padding: 20px;
   overflow: hidden;
-  
- 
-  
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
 }
 #display{
   width: 95%;
   height: 7%;
-  border: 1px solid black;
   margin: auto;
   margin-top: 5%;
+  background: transparent;
+  text-align: center;
+  font-size: x-large;
+  border-style:none;
+  
+
+}
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .btn{
   height: 10%;
   width: 18%;
   padding: 10px;
   margin: 15px;
-  margin-left: 20px;
-  border-radius: 20px;
+  margin-left: px;
+  border-radius: 45%;
+  font-size: x-large;
+  border-style: none;
+  background: transparent;
+  margin-left: 8%;
+font-family:Georgia, 'Times New Roman', Times, serif;
   
-}
-.btn:hover{
-  color: aqua;
 }
